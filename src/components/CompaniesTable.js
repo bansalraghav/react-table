@@ -50,6 +50,9 @@ const CompaniesTable = () => {
 
     return (
         <>
+            <div style={{ justifyContent: "center", alignItems: "center", display: "flex" }}>
+                <h1 style={{ padding: "20px" }}>Companies</h1>
+            </div>
             <Table striped bordered hover style={{ margin: 'auto', maxWidth: '800px', border: '2px solid black' }}>
                 <thead>
                     <tr style={{ backgroundColor: 'black', color: 'white', fontWeight: 'bold' }}>
